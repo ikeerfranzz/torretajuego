@@ -18,7 +18,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
             );
 
             gameObject.SetActive(false);
-            WaitForSeconds(3f);
+
+            gameObject.SetActive(true);
         }
     }
 }
