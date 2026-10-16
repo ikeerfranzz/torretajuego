@@ -227,12 +227,11 @@ Transform:
   m_GameObject: {fileID: 204101105}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.966, y: 0.5999998, z: -6.35}
+  m_LocalPosition: {x: 0.043079853, y: -0.4646002, z: 0.25}
   m_LocalScale: {x: 0.5, y: 1.2000008, z: 0.49999997}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1842082552}
-  m_Father: {fileID: 0}
+  m_Children: []
+  m_Father: {fileID: 1697706687}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &204101107
 BoxCollider:
@@ -319,7 +318,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 204101105}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1934d5953b1fda74493d19237ab285f0, type: 3}
   m_Name: 
@@ -822,8 +821,8 @@ Transform:
   m_GameObject: {fileID: 642295245}
   serializedVersion: 2
   m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: -0.09666684, y: 0.6530002, z: 0.26857105}
-  m_LocalScale: {x: 2.8571432, y: 3.333331, z: 1}
+  m_LocalPosition: {x: -0.096668035, y: 0.6530002, z: 0.26857108}
+  m_LocalScale: {x: 2.8571415, y: 3.3333323, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1842082552}
@@ -1739,6 +1738,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1350502129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1350502130}
+  m_Layer: 0
+  m_Name: Pistola
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1350502130
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350502129}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.08256, y: 1.291, z: -6.37996}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1697706687}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1415288404
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1979,6 +2010,100 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
   dianaDestruida: {fileID: 4879380513667183606, guid: 9f2b53caecfea8548b2540f3f8604874, type: 3}
   scoreManager: {fileID: 768945954}
+--- !u!1 &1697706686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1697706687}
+  - component: {fileID: 1697706688}
+  m_Layer: 0
+  m_Name: Base_CONT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1697706687
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697706686}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.07348013, y: -0.22640002, z: -0.22003984}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 204101106}
+  - {fileID: 1706895272}
+  m_Father: {fileID: 1350502130}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1697706688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697706686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1934d5953b1fda74493d19237ab285f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HorizontalRotation
+  rotationSpeed: 1
+  distance: 0
+--- !u!1 &1706895271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1706895272}
+  - component: {fileID: 1706895273}
+  m_Layer: 0
+  m_Name: "Ca\xF1on_CONT"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1706895272
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706895271}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1842082552}
+  m_Father: {fileID: 1697706687}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1706895273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706895271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d10c0a2786df20e43830a06ed19ee83a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VerticalRotation
+  rotationSpeed: 1
 --- !u!1001 &1835732785
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2115,12 +2240,12 @@ Transform:
   m_GameObject: {fileID: 1842082551}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0.7071068, z: -0, w: 0}
-  m_LocalPosition: {x: 0.5700002, y: 0.45083323, z: 0}
-  m_LocalScale: {x: 0.24999999, y: 2, z: 0.70000005}
+  m_LocalPosition: {x: 0.32807994, y: 0.07640004, z: 0.25}
+  m_LocalScale: {x: 0.30000016, y: 1, z: 0.35000008}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 642295246}
-  m_Father: {fileID: 204101106}
+  m_Father: {fileID: 1706895272}
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: -90}
 --- !u!65 &1842082553
 BoxCollider:
@@ -2274,4 +2399,4 @@ SceneRoots:
   - {fileID: 978981356}
   - {fileID: 1678700739}
   - {fileID: 303340333}
-  - {fileID: 204101106}
+  - {fileID: 1350502130}

@@ -8,9 +8,9 @@ public class VerticalRotation : MonoBehaviour
     void Update()
     {
         transform.localEulerAngles += new Vector3(
-            Mouse.current.delta.value.y,
             0,
-            0
+            0,
+            Mouse.current.delta.value.y
         ) * rotationSpeed;
     }
 }
